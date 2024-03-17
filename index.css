@@ -1,0 +1,46 @@
+body {
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  padding: 100px 0;
+  background-color: white;
+}
+.counter {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 41px;
+}
+button {
+  font-family: inherit;
+  font-weight: 700;
+}
+.enhancement {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  width: 500px;
+  height: 100px;
+  font-size: 32px;
+  color: white;
+  background-color: #4191ff;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+.enhancement:hover {
+  opacity: 0.7;
+}
+.reset {
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+  height: 100px;
+  font-size: 32px;
+  color: white;
+  background-color: #d45366;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+.reset:hover {
+  opacity: 0.7;
+}
